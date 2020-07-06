@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".huruf"
+    android:background="@mipmap/mejid">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBaseline_toBaselineOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="26dp"
+        android:background="@mipmap/alif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="126dp"
+        android:background="@mipmap/ba"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="222dp"
+        android:background="@mipmap/ta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="320dp"
+        android:background="@mipmap/tsa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/Alif"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="alif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/Ba"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ba"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/Ta"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+
+    <Button
+        android:id="@+id/Tsa"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="tsa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/Jim"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="jim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/Kha"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="kha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/Kho"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="kho"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <Button
+        android:id="@+id/Dal"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="dal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <Button
+        android:id="@+id/Dzal"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="dzal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/Ra"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <Button
+        android:id="@+id/Za"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="za"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <Button
+        android:id="@+id/Sin"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="sin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <Button
+        android:id="@+id/Syin"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="syin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <Button
+        android:id="@+id/Shod"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="shod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <Button
+        android:id="@+id/Dhod"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="dhod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <Button
+        android:id="@+id/Tho"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="318dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="tho"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <Button
+        android:id="@+id/Zho"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="zho"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.068" />
+
+    <Button
+        android:id="@+id/Ain"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.068" />
+
+    <Button
+        android:id="@+id/Ghoin"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ghoin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.068" />
+
+    <Button
+        android:id="@+id/Fa"
+        android:layout_width="77dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="fa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.068" />
+
+<!--    <Button-->
+<!--        android:id="@+id/Qof"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="28dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="qof"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.295" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Kaf"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="128dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="kaf"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.295" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Lam"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="228dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="lam"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.295" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Mim"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="316dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="mim"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.295" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Nun"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="28dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="nun"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.522" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Ha"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="128dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="ha"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.522" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Waw"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="228dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="waw"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.522" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Ya"-->
+<!--        android:layout_width="77dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginLeft="316dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="ya"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.522" />-->
+
+
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="28dp"
+        android:background="@mipmap/ja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="128dp"
+        android:background="@mipmap/kha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="224dp"
+        android:background="@mipmap/kho"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="320dp"
+        android:background="@mipmap/da"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="28dp"
+        android:background="@mipmap/dzal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="128dp"
+        android:background="@mipmap/ra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="228dp"
+        android:background="@mipmap/zal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="320dp"
+        android:background="@mipmap/sa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="28dp"
+        android:background="@mipmap/sya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="130dp"
+        android:background="@mipmap/shod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="226dp"
+        android:background="@mipmap/dhod"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="320dp"
+        android:background="@mipmap/to"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="30dp"
+        android:background="@mipmap/zho"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.980" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="130dp"
+        android:background="@mipmap/ain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.980" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="226dp"
+        android:background="@mipmap/ghain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.980" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="320dp"
+        android:background="@mipmap/fa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.980" />
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:background="@mipmap/qof"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.215" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="130dp"-->
+<!--        android:background="@mipmap/kaf"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.215" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="230dp"-->
+<!--        android:background="@mipmap/lam"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.215" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="320dp"-->
+<!--        android:background="@mipmap/mim"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.215" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:background="@mipmap/nun"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.455" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="130dp"-->
+<!--        android:background="@mipmap/waw"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.455" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="230dp"-->
+<!--        android:background="@mipmap/ha"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.455" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="85dp"-->
+<!--        android:layout_marginLeft="320dp"-->
+<!--        android:background="@mipmap/ya"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="1.455" />-->
+
+<!--    </LinearLayout>-->
+<!--    </ScrollView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

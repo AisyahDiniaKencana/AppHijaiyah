@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App Hijaiyah</string>
+    <string name="Judul">AYO BELAJAR HURUF HIJAIYAH</string>
+    <string name="btHuruf">HURUF HIJAIYAH</string>
+    <string name="btVideo">VIDEO HURUF HIJAIYAH</string>
+    <string name="video1">Nussa</string>
+    <string name="video2">Upin dan Ipin</string>
+    <string name="video3">Animasi</string>
+    <string name="video4">Lagu Anak-Anak</string>
+</resources>
